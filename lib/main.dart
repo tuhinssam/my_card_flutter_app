@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
             CircleAvatar(
               radius: 50,
               //backgroundColor: Colors.red,
-              backgroundImage: AssetImage('images/profile.gif'),
+              backgroundImage: AssetImage('images/tuhin.png'),
             ),
             Text(
               'Tuhin S Samanta',
@@ -89,6 +89,23 @@ class MyApp extends StatelessWidget {
                 ],
               ),
             ),
+            Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.web,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    'www.tuhinsamanta.info',
+                    style: TextStyle(
+                      color: Colors.teal.shade900,
+                      fontFamily: 'Source Sans Pro',
+                      fontSize: 20,
+                    ),
+                  ),
+                )),
 //             Container(
 //               height: 100,
 //               //width: double.infinity,
