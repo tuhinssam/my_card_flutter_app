@@ -9,3 +9,7 @@
 * How to style Text widgets
 * How to read and use Flutter Documentation
 
+## App Description
+
+This application uses cards and different widgets to display different information like
+photo, job title, email, phone numbers in a material design approach
